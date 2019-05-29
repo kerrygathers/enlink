@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+    <style>
+        .video-container {
+            width: 100%;
+        }
+
+        .video-js {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            /* Random BG colour for unloaded video elements */
+        }
+    </style>
+</head>
+
+<body>
+    <div class='video-container'>
+        <video id='enlink-video1' class='video-js vjs-big-play-centered' controls preload='auto' width='100%' data-setup='{}'>
+            <source src='/video/EnLink_Animatic.mp4' type='video/mp4'>
+            <p class='vjs-no-js'>
+                To view this video please enable JavaScript, and consider upgrading to a web browser that
+                <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+            </p>
+        </video>
+    </div>
+
+    <script src='https://vjs.zencdn.net/7.5.4/video.js'></script>
+</body></html>
